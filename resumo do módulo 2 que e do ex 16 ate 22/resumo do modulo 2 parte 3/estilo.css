@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+/*
+    # = id
+    . = class
+    : = pseudo-class
+    :: = pseudo-element
+    > =clildren
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.links {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+.links:visited {
+    color: darkred;
+}
+
+.links:hover {
+    text-decoration: underline;
+}
+
+.links:active {
+    color: yellow;
+}
+
+.links::after {
+    content: '<--';
+}
+
+.links::before {
+    content: '-->';
+}
+
+main div.box h3 {
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+    border: 10px solid darkslategray;
+
+    padding: 10px;
+
+    margin: 20px auto 40px auto;
+
+    outline: 5px dashed salmon;
+}
+
+main div.box a {
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.meusite {
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.header {
+    background-color: white;
+    padding: 10px;
+    margin:10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 9px 0px black;
+}
+
+nav {
+    background-color: rgb(102, 102, 102);
+    padding: 3px;
+    box-shadow: 5px 3px 7px 1px black;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+article {
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 9px 0px black;
+}
+
+article > aside {
+    background-color: rgb(190, 188, 188);
+    padding: 3px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+
+footer p {
+    margin: 0px;
+}
+
+div#bola {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: black;
+    border-radius: 50%;
+}

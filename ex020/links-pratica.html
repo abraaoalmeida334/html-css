@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links 02</title>
+    <style>
+        body{/*
+                hover é ao passar o mause
+                visited se foi visitado
+                active ao clica
+            */
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: darkred;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: yellow;
+        }
+
+        .especial {
+            background-color: lightgray;
+        }
+
+        .especial::after {
+            content: '<--';
+        }
+
+        .especial::before {
+            content: '-->';
+        }
+    </style>
+</head>
+<body>
+    <h1>Links Personalizando</h1>
+    <ul>
+        <li><a href="links.html" class="especial">voltar para o links</a></li>
+        <li><a href="hover.html" class="especial">Ir para hover</a></li>
+        <li><a href="index.html">Ir para index</a></li>
+    </ul>
+</body>
+</html>

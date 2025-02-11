@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover praticas diversas 01</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        a::before {
+            content: '-->';
+        }
+
+        a::after {
+            content: '<--';
+        }
+
+        div > img {
+            display: none;
+        }
+
+        div:hover > img {
+            display: block;
+            height: 200px;
+            width: 200px;
+        }
+
+        div > video {
+            display: none;
+        }
+
+        div:hover > video {
+            display: block;
+            height: 300px;
+        }
+
+        div > iframe {
+            display: none;
+        }
+
+        div:hover > iframe {
+            display: block;
+        }
+
+        div:hover{
+            color: red;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mause sobre o texto abaixo ver a imagem</p>
+    <div>Passe o mause aqui
+        <img src="imagens/logo-css-full.webp" alt="imagem">
+    </div>
+    <p>passe o mause sobre o texto abaixo para ver o video</p>
+    <div>passe aqui para ver o video
+        <video src="midia/Meu Video.mp4" autoplay controls loop></video>
+    </div>
+
+    <p>passe o mause por cima para ver o video na qual foi de espiração para isso estar aqui</p>
+    <div>Passe aqui para ver o video
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/WPtRX4n0UJs?si=y29MamyNgUFsgQ_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <p><a href="index.html">Voltar para o incial</a></p>
+</body>
+</html>

@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@font-face {
+    font-family: 'Love';
+    src: url('../fonts/love larry.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+main > div.gradiante {
+    background-image: linear-gradient(to left, white, blue);
+    background-attachment: fixed;
+    /* background-attachment: fixed; deixa o site fixo, mas tome cuidado pra não EXAGERA no gradient*/
+}
+
+main article {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(136, 109, 93, 0.81);
+    max-width: 600px;
+    padding: 20px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main article h2 {
+    color: #125189;
+    text-align: center;
+}
+
+main article h3 {
+    color: #f39209;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(129, 77, 5, 0.754);
+}
+
+main article h4 {
+    color: #125189;
+}
+
+main article p {
+    text-align: justify;
+}
+
+
+main div.fonte01 {
+    font-family: Arial, Helvetica, sans-serif;
+    /*
+    Medidas Absolutas
+    cm, mn, in, px, pt, pc
+
+    medidas Relativas
+    em, ex, rem, vn, vh, %
+    
+    recomentada
+    px e em
+
+    16px geralmente = 1em
+    */
+    font-size: 1em;
+
+    /* lighter normal bold bolder/ 100-900*/
+}
+
+main div.fonte01 h2 {
+    /* shortthand font
+    - font-style -> font-weight -> font-size -> font-family
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+    font-style: italic;
+    */
+    font: italic bolder 3em Arial, Helvetica, sans-serif;
+}
+
+main div.fonte01 h3 {
+    font: bold 2em Arial;
+}
+
+main div.fonte01 h4 {
+    font: bold 1.5em Arial;
+}
+
+main div.fonte02 {
+    font-family: "Kaushan Script", serif;
+}
+
+main div.fonte03 {
+    font-family: 'Love', Courier, monospace;
+}
+
+main div.Alinhamento {
+    font: normal 16px Arial, Verdana, serif;
+    text-align: left;
+}
+
+main div.Alinhamento h2{
+    text-align: center;
+}
+
+main div.Alinhamento h3 {
+    text-align: right;
+}
+
+main div.Alinhamento p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+main div.id {
+    background-color: rgb(205, 255, 203);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*
+    em HTML é id = em CSS é #
+    em HTML é class = em CSS é .
+*/
+
+#principal {
+    text-align: center;
+    background-color: rgb(4, 109, 0);
+    color: white;
+}
+
+main div.id h1 {
+    color: rgb(4, 109, 0);
+}
+
+main div.id h2 {
+    color: rgb(4, 109, 0);
+}
+
+main div.id h3 {
+    color: rgb(4, 109, 0);
+}
+
+main div.id h4 {
+    color: rgb(4, 109, 0);
+}
+
+main div.id h5 {
+    color: rgb(51, 77, 49);
+}
+
+main div.id .basico {
+    color: #3c805e;
+}
+
+main div.id .intermediario {
+    color: #80793c;
+}
+
+main div.id .avancado {
+    color: #803c3c;
+}
+
+main div.id .destaque {
+    background-color: #c5c56070;
+}

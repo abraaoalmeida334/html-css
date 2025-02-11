@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+body {
+    background-color: #84E1AD;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #36C074, #247E4B);
+    margin: 0px;
+    padding: 1px;
+}
+
+header > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header > p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+header > div > nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 2px 10px 2px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > div > nav > a:hover {
+    background-color: greenyellow;
+}
+
+main {
+    margin: 0px 100px 20px 100px;
+    padding: 1px;
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+}
+
+main > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+    padding: 10px 10px 20px 10px;
+}
+
+main > section#primeira > article > h1 {
+    font-family: 'idroid';
+    font-size: 2em;
+    color: #1C5E3A;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 0px 0px 20px;
+}
+
+main > section#primeira > article > h2 {
+    font-family: 'idroid';
+    color: #1C5E3A;
+    background-color: #DBF3E6;
+    margin: 0px 0px 0px 20px;
+    padding: 5px 5px 5px 5px;
+}
+
+main > section#primeira > article > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+    padding: 10px 10px 10px 10px;
+}
+
+main > section#primeira > article > picture > img {
+    margin: auto;
+    width: 715px;
+}
+
+main > section#primeira > article > iframe {
+    margin: auto;
+    width: 720px;
+}
+
+main > section#segunda {
+    background-color: white;
+}
+
+main >section#segunda > div {
+    background-color: #C5EBD6;
+    margin: auto;
+    padding: 0px;
+    border-radius: 20px;
+}
+
+main > section#segunda > div > h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #2FA866;
+    color: white;
+}
+
+main > section#segunda > div > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+    padding: 0px 10px 0px 10px;
+}
+
+footer {
+    background-color: #1A5C38;
+}
+
+footer > p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 10px 10px 10px;
+}
+
+.center {
+    padding-left: 210px;
+}
+
+.grapo {
+    color:  green;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.grapo:hover {
+    color: greenyellow;
+}
+
+.grapo::after {
+    content: '-->';
+}
+
+.cor {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cor:hover {
+    color: greenyellow;
+}
+
+.visto {
+    color: black;
+    text-decoration: none;
+}
+
+.visto:hover {
+    color: greenyellow;
+}
+
+.visto::before {
+    content: '-->';
+}
